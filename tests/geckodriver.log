@@ -1,0 +1,25 @@
+1657967351630	geckodriver	INFO	Listening on 127.0.0.1:49795
+1657967355133	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49796" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vikto\\AppData\\Local\\Temp\\rust_mozprofile27EGuF"
+1657967358680	Marionette	INFO	Marionette enabled
+1657967358710	Marionette	INFO	Listening on port 49819
+WebDriver BiDi listening on ws://localhost:49796
+Read port: 49819
+1657967359099	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\vikto\\AppData\\Local\\Temp\\rust_mozprofile27EGuF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49796/devtools/browser/4228be85-8742-48f6-b94e-4effa9514ff9
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1657551192, line 6289: unreachable code after return statement
+JavaScript error: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1657551192, line 6105: Error: Expected: '<assignment:568645>' to be present in the adapter provided payload, but it was not found.
+1657967377584	Marionette	INFO	Stopped listening on port 49819
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+1658326387699	geckodriver	INFO	Listening on 127.0.0.1:59010
+1658326390762	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59011" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vikto\\AppData\\Local\\Temp\\rust_mozprofileW5RlKO"
+1658326391574	Marionette	INFO	Marionette enabled
+1658326391581	Marionette	INFO	Listening on port 59020
+WebDriver BiDi listening on ws://localhost:59011
+Read port: 59020
+1658326391756	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\vikto\\AppData\\Local\\Temp\\rust_mozprofileW5RlKO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59011/devtools/browser/bbebf8d7-dae5-46b5-9cf3-d8421a0162bd
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1658326396076	Marionette	INFO	Stopped listening on port 59020

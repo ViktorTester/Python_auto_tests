@@ -1,0 +1,29 @@
+1658326575870	geckodriver	INFO	Listening on 127.0.0.1:59112
+1658326578908	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59113" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vikto\\AppData\\Local\\Temp\\rust_mozprofile2BHwIa"
+1658326579452	Marionette	INFO	Marionette enabled
+1658326579462	Marionette	INFO	Listening on port 59122
+WebDriver BiDi listening on ws://localhost:59113
+Read port: 59122
+1658326579650	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\vikto\\AppData\\Local\\Temp\\rust_mozprofile2BHwIa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59113/devtools/browser/b6e160a5-9ccf-4d9d-8292-4abbb4154574
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1658326584342	Marionette	INFO	Stopped listening on port 59122
+1658847030676	geckodriver	INFO	Listening on 127.0.0.1:56251
+1658847033764	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56252" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\vikto\\AppData\\Local\\Temp\\rust_mozprofilecJ5jfR"
+1658847035024	Marionette	INFO	Marionette enabled
+1658847035036	Marionette	INFO	Listening on port 56263
+WebDriver BiDi listening on ws://localhost:56252
+Read port: 56263
+1658847035322	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\vikto\\AppData\\Local\\Temp\\rust_mozprofilecJ5jfR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56252/devtools/browser/9008d022-9475-4df9-b77d-1b72c6b75ae3
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/, line 614: ReferenceError: oscar is not defined
+1658847045646	Marionette	INFO	Stopped listening on port 56263
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1658847045811	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 55"  data: no] Stack trace: allowAllCerts.disable()@cert.js:55
+destroy()@Session.jsm:202
+deleteSession()@WebDriverBiDi.jsm:143
+stop()@WebDriverBiDi.jsm:218
